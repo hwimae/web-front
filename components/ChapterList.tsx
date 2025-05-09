@@ -69,7 +69,6 @@ const ChapterList: React.FC<Props> = ({ chapters, onSelect, onLessonSelect }) =>
 
           {openChapterIndex === chIndex && (
             <div className="bg-white mt-1 p-4 rounded-lg shadow-sm border border-gray-200">
-              {/* Hiển thị các bài học của trang hiện tại */}
               {getCurrentPageLessons(chapter).map((lesson, lIndex) => (
                 <div
                   key={lIndex}
@@ -91,7 +90,6 @@ const ChapterList: React.FC<Props> = ({ chapters, onSelect, onLessonSelect }) =>
                 </div>
               ))}
               
-              {/* Hiển thị điều khiển phân trang nếu có nhiều bài học */}
               {chapter.lessonList.length > LESSONS_PER_PAGE && (
                 <div className="flex items-center justify-between mt-4 pt-2 border-t border-gray-200">
                   <div className="text-sm text-gray-500">

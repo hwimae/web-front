@@ -117,7 +117,6 @@ export default function VideoReference({ videoSrc }: VideoReferenceProps) {
         </div>
       )}
       
-      {/* Biểu tượng phóng to video */}
       <div className="absolute bottom-2 right-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"

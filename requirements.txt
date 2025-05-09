@@ -1,9 +1,0 @@
-mediapipe
-opencv-python
-tensorflow
-scikit-learn
-numpy
-matplotlib
-openai
-keyboard
-string
